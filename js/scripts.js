@@ -16,13 +16,13 @@ elForm.addEventListener("submit", function(evt) {
   }
 
   if(temperaturaInput >= 15 && temperaturaInput <= 30 && elFetnesCheckbox.checked) {
-    elReold.classList.remove("d-none");
+    elReold.classList.remove("d-none", "alert-success", "alert-danger");
     elReold.classList.add("alert-success");
 
     elReold.textContent = "Boramiz Katta og'a :)";
   }
   else {
-    elReold.classList.remove("d-none");
+    elReold.classList.remove("d-none", "alert-success", "alert-danger");
     elReold.classList.add("alert-danger");
 
     elReold.textContent = "Uzur katta og'a Borolmaymiz kasal bo'lib qolasiz :("
