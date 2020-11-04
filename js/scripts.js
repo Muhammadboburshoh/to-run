@@ -11,7 +11,7 @@ elForm.addEventListener("submit", function(evt) {
 
   if(temperaturaInput === "" || isNaN(temperaturaInput)) {
     alert("Brat bu yerga son kiritish kerak edida :)");
-    elTemperaturaInput.valeu = "";
+    elTemperaturaInput.value = "";
     return;
   }
 
