@@ -3,16 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>bootstrap starter</title>
+  <title>Yugirishga chiqamiz</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="bg-secondary text-light">
 
+  <div class="container">
+      <h1 class="text-center my-4">Yugirishga chiqamizmi katta og'a :)</h1>
+      <form class="temperatura" action="echo.htmlacedemy.ry">
+        <div class="w-50 d-flex align-items-center mx-auto">
+          <label class="mr-2 flex-shrink-0 h5" for="temperatura-input">Havo harorati:</label>
+          <input class="temperarura-input flex-grow-1 form-control" id="temperatura-input" type="text" name="temperatura" required placeholder="30 C">
+        </div>
+
+        <div class="custom-control custom-switch mt-2">
+          <input type="checkbox" class="rain-checkbox custom-control-input" id="rain">
+          <label class="custom-control-label" for="rain">Yomg'ir yog'ayabdi</label>
+        </div>
+        <div class="custom-control custom-switch mt-2">
+          <input type="checkbox" class="rain-checkbox custom-control-input" id="fetnes">
+          <label class="custom-control-label" for="fetnes">Bekorchilar zali ochiq</label>
+        </div>
+      </form>
+  </div>
 
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/scripts.js"></script>
+
 </body>
 </html>

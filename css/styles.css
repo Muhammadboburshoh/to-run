@@ -22,3 +22,12 @@ img {
 h1 {
   font-weight: bold;
 }
+
+.custom-control-input:checked~.custom-control-label::before {
+  background-color: rgb(138, 221, 166);
+  border-color: rgb(28, 238, 98);
+}
+
+.custom-control {
+  margin-left: 500px;
+}
